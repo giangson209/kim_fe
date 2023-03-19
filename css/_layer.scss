@@ -1,0 +1,171 @@
+
+/*======================================== config =================================*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+$blue: #7FC3A7;
+
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #070039;
+  transition: .3s all !important;
+  &:hover {
+    color: $blue;
+  }
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+input {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+html{
+  // scroll-behavior: smooth;
+  @media (max-width: 767px) {
+    overflow-x: hidden;
+  }
+}
+body {
+  max-width: 100%;
+  //overflow-x: hidden;
+  color: #000000;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'HelveticaNeue';
+  font-weight: 300;
+  background: #F4FEFD;
+  @media (max-width: 1600px) {
+    font-size: 16px;
+  }
+  @media (max-width: 1023px) {
+    overflow-x: hidden;
+    padding-bottom: 60px !important;
+  }
+}
+.container {
+  max-width: 1500px;
+  @media (max-width: 1700px) {
+    max-width: 100%;
+    padding: 0 100px;
+  }
+  @media (max-width: 1400px) {
+    padding: 0 60px;
+  }
+  @media (max-width: 1023px) {
+    padding: 0 40px;
+  }
+  @media (max-width: 767px) {
+    padding: 0 16px;
+  }
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  //transition: .3s all !important;
+  outline: none !important;
+}
+
+.slick-slider {
+  margin: 0;
+  img {
+    display: inline;
+  }
+}
+
+/*======================================== end config =================================*/
+.heaer-top {
+  padding: 38px 0;
+  font-family: Ogg;
+  font-weight: normal;
+  font-size: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background: #f4fefd;
+  ul {
+    list-style: none;
+    display: flex;
+    align-content: center;
+    li {
+      a {
+        position: relative;
+        display: flex;
+        padding: 12px 28px;
+        color: #000000;
+        &:after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: url("../images/cir-menu.png") no-repeat center;
+          background-size: 100% 100%;
+          opacity: 0;
+          pointer-events: none;
+          transition: .3s all !important;
+        }
+        &.active, &:hover {
+          &:after {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  position: relative;
+  z-index: 3;
+}
+.footer-top {
+  padding: 65px 0;
+  background: #D7F9F5;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  .content-fter {
+    display: flex;
+    align-items: flex-end;
+    .logo {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+    }
+  }
+}
+
+main {
+  margin-top: 137px;
+}

@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueRegular.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueRegular.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueBlackCond.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueBlackCond.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueLight.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueBold.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueBold.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueMedium.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueHeavy.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueHeavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueItalic.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueLight.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueMedium.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/Helvetica/HelveticaNeueThin.woff2') format('woff2'),
+        url('../fonts/Helvetica/HelveticaNeueThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-Bold.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-LightItalic.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-BoldItalic.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-MediumItalic.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-Light.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-Medium.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-Italic.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-Regular.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-Thin.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/ogg/SVN-Ogg-ThinItalic.woff2') format('woff2'),
+  url('../fonts/ogg/SVN-Ogg-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
