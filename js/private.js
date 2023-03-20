@@ -85,4 +85,13 @@ $(document).ready(function(){
 			},
 		],
 	});
+	$('.slide-preview').slick({
+		autoplay:false,
+		arrow:true,
+		dots: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		nextArrow: '<a href="javascript:void(0)" class="arr-right"><img src="images/arr-right.png" class="img-fluid" alt=""></a>',
+		prevArrow: '<a href="javascript:void(0)" class="arr-left"><img src="images/arr-left.png" class="img-fluid" alt=""></a>',
+	});
 })
