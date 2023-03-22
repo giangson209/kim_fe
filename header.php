@@ -22,7 +22,7 @@
     <div class="heaer-top">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <div class="h-menu">
                         <ul>
                             <li><a href="" class="active">Available now</a></li>
@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <div class="logo text-right"><a href=""><img src="images/logo.svg" class="img-fluid" alt=""></a></div>
                 </div>
             </div>

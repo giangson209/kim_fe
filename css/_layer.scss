@@ -48,19 +48,18 @@ body {
   font-family: 'HelveticaNeue';
   font-weight: 300;
   background: #F4FEFD;
-  @media (max-width: 1600px) {
+  @media (max-width: 1400px) {
     font-size: 16px;
   }
-  @media (max-width: 1023px) {
-    overflow-x: hidden;
-    padding-bottom: 60px !important;
+  @media (max-width: 767px) {
+    font-size: 14px;
   }
 }
 .container {
   max-width: 1500px;
   @media (max-width: 1700px) {
-    max-width: 100%;
     padding: 0 100px;
+    max-width: 100%;
   }
   @media (max-width: 1400px) {
     padding: 0 60px;
@@ -112,6 +111,18 @@ time, mark, audio, video {
   width: 100%;
   z-index: 10;
   background: #f4fefd;
+  @media (max-width: 1600px) {
+    padding: 24px 0;
+  }
+  @media (max-width: 1200px) {
+    font-size: 20px;
+  }
+  @media (max-width: 1023px) {
+    font-size:14px;
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
   ul {
     list-style: none;
     display: flex;
@@ -122,6 +133,9 @@ time, mark, audio, video {
         display: flex;
         padding: 12px 28px;
         color: #000000;
+        @media (max-width: 1023px) {
+          padding: 6px 18px;
+        }
         &:after {
           content: "";
           position: absolute;
@@ -155,6 +169,16 @@ footer {
   font-size: 30px;
   font-weight: bold;
   color: #000000;
+  @media (max-width: 1600px) {
+    font-size: 24px;
+  }
+  @media (max-width: 1400px) {
+    padding: 40px 0;
+  }
+  @media (max-width: 767px) {
+    padding: 24px 0;
+    font-size: 14px;
+  }
   .content-fter {
     display: flex;
     align-items: flex-end;
@@ -162,6 +186,12 @@ footer {
       display: flex;
       align-items: center;
       margin-left: 10px;
+    }
+  }
+  svg {
+    @media (max-width: 767px) {
+      width: auto;
+      height: 30px;
     }
   }
 }

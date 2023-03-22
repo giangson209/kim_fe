@@ -29,6 +29,57 @@ $(document).ready(function(){
 			],
 		});
 	};
+
+	if($(window).innerWidth() < 767){
+		$('.list-srv .row').slick({
+			autoplay:false,
+			arrow:false,
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			dots: false,
+			nextArrow: '',
+			prevArrow: '',
+			responsive: [
+				{
+					breakpoint: 767,
+					settings: {
+						slidesToShow: 2,
+					}
+				},
+				{
+					breakpoint: 575,
+					settings: {
+						slidesToShow: 1,
+					}
+				},
+			],
+		});
+		$('.list-about .row').slick({
+			autoplay:false,
+			arrow:false,
+			slidesToShow: 2,
+			slidesToScroll: 1,
+			dots: false,
+			nextArrow: '',
+			prevArrow: '',
+			responsive: [
+				{
+					breakpoint: 767,
+					settings: {
+						slidesToShow: 2,
+					}
+				},
+				{
+					breakpoint: 575,
+					settings: {
+						slidesToShow: 1,
+					}
+				},
+			],
+		});
+	};
+
+
 	$('.slide-line').slick({
 		autoplay:false,
 		arrow:false,
